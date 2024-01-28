@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: black;
+}
+a:hover {
+  color: inherit; /* Inherits color property from its parent */
+}
+
+body {
+  font-size: 16px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #373a3c;
+  background-color: #fff;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap");
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  width: 1140px;
+  height: 56px;
+  padding: 8px 16px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.header .logo {
+  width: 78px;
+  height: 40px;
+  line-height: 40px;
+  padding-bottom: 4px;
+
+  font-family: "Titillium Web", sans-serif;
+  font-size: 1.5rem !important;
+  color: #5cb85c !important;
+  font-weight: 700;
+}
+
+.header .nav {
+  width: 167.5px;
+  height: 37.5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header .nav .nav-item {
+  height: 37.5px;
+  padding: 7px 0px;
+
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1rem;
+  color: #373a3c;
+  background-color: #fff;
+}
+
+.banner {
+  width: 100vw;
+  height: 170px;
+  padding: 32px;
+  background-color: #5cb85c;
+  margin-bottom: 32px;
+  box-shadow: inset 0 8px 8px -8px rgba(0, 0, 0, 0.3),
+    inset 0 -8px 8px -8px rgba(0, 0, 0, 0.3);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner .text-1 {
+  width: 1110px;
+  height: 70px;
+
+  text-align: center;
+  line-height: 70px;
+
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+  font-weight: 700 !important;
+  font-size: 3.5rem;
+  padding-bottom: 0.5rem;
+  color: #fff;
+  font-family: "Titillium Web", sans-serif;
+}
+
+.banner .text-2 {
+  color: #fff;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 300 !important;
+  font-family: "Titillium Web", sans-serif;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home .content {
+  width: 1140px;
+  display: flex;
+}
+
+.home .content .main {
+  flex: 3;
+}
+
+.home .content .tag {
+  flex: 1;
+}
+/* ----------- */
+.ant-tabs-nav {
+  margin-bottom: 10px !important;
+}
+
+.ant-card-bordered {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.ant-card-head {
+  min-height: 0 !important;
+  padding: 5px 10px !important;
+  font-weight: 400 !important;
+}
+
+.ant-card-body {
+  padding: 10px 10px 10px !important;
+}
+
+.tag-item-1 {
+  
+}
